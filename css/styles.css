@@ -45,7 +45,7 @@ html, body {
     margin: 0;
 
     font-family: Raleway-Regular;
-     background: url(../img/bg.svg) #000 no-repeat center center fixed;
+/*     background: url(../img/bg.svg) #000 no-repeat center center fixed;*/
     -webkit-background-size: cover;
     color: #555;
     background-size: cover;
@@ -53,8 +53,8 @@ html, body {
 }
 
 h1, h2, h3, h4, a {
-    color: #636;
-    font-family: SlimJoe;
+/*    color: #636;*/
+/*    font-family: SlimJoe;*/
 }
 
 .container {
@@ -116,7 +116,6 @@ h1, h2, h3, h4, a {
 */
 
 /*-----------------------------------------*/
-
 /*Background colors*/
 .orange {
     color: #E87A4A;
@@ -137,6 +136,8 @@ h1, h2, h3, h4, a {
 .teal {
     color: darkturquoise;
 }
+
+/*-----------------------------------------*/
 /* Borders */
 .rounded-small {
 /*    border: 3px solid #fff;*/
@@ -148,6 +149,13 @@ h1, h2, h3, h4, a {
     text-shadow: 0 0 2px #000;
 }
 
+.round-plain{
+    /*    border: 3px solid #fff;*/
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000;
+    padding: 20px 20px;
+    text-decoration: none;
+}
 
 /*-----------------------------------------*/
 /*Foundation Icon sizes*/

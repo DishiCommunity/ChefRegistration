@@ -2,17 +2,15 @@
 <html lang=en>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Dishi Website</title>
+    <title>Dishi - Chef Registration</title>
 
     <!--Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="slider/vegas.min.css">
     <link rel="stylesheet" href="foundation/foundation-icons/foundation-icons.css" />
-
-    <!--foundation-->
     <link rel="stylesheet" href="foundation/css/foundation.min.css">
-    <link rel="stylesheet" href="foundation/css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="foundation/css/app.css">
 
     <!-- Scripts -->
 
@@ -21,73 +19,121 @@
 <body>
 
     <!-- CHEF REGISTRATION FORM-->
-    <div class="row title">
-        <h3> </h3>
-
+    <div class="row columns title">
+        <h3 class=""> REGISTER TO BE A CHEF </h3>
     </div>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label
-            <input type="text" placeholder="large-12.columns" />
-          </label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 columns">
-          <label>Input Label
-            <input type="text" placeholder="large-4.columns" />
-          </label>
-        </div>
-        <div class="large-4 columns">
-          <label>Input Label
-            <input type="text" placeholder="large-4.columns" />
-          </label>
-        </div>
-        <div class="large-4 columns">
-          <div class="row collapse">
-            <label>Input Label</label>
-            <div class="small-9 columns">
-              <input type="text" placeholder="small-9.columns" />
+
+    <div id="forms" class="row center-h">
+
+        <!-- STEP 1 -->
+        <div id="step1" class="row">
+        <h5> STEP 1</h5>
+
+        <form class="round-plain">
+        <div class="row">
+
+            <!--name-->
+            <div class="small-12 columns">
+              <label>Full Name
+                <input type="text" placeholder="name" />
+              </label>
             </div>
-            <div class="small-3 columns">
-              <span class="postfix">.com</span>
+
+            <!--email-->
+            <div class="small-12 columns">
+                  <div class="row collapse">
+                    <label>Email</label>
+                    <div class="small-9 columns">
+                      <input type="text" placeholder="your@email" />
+                    </div>
+                    <div class="small-3 columns">
+                      <span class="postfix">.com</span>
+                    </div>
+                  </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box
-            <select>
-              <option value="husker">Husker</option>
-              <option value="starbuck">Starbuck</option>
-              <option value="hotdog">Hot Dog</option>
-              <option value="apollo">Apollo</option>
-            </select>
-          </label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 columns">
-          <label>Choose Your Favorite</label>
-          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
-        </div>
-        <div class="large-6 columns">
-          <label>Check these out</label>
-          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label
-            <textarea placeholder="small-12.columns"></textarea>
-          </label>
-        </div>
-      </div>
-    </form>
+
+            <!-- Password -->
+            <div class="small-12 columns">
+              <label>Password
+                <input type="text" placeholder="password" />
+              </label>
+            </div>
+
+
+            <!-- Confirm Password -->
+            <div class="small-12 columns">
+              <label>Confirm Password
+                <input type="text" placeholder="confirm password" />
+              </label>
+            </div>
+        </div> <!-- row end --->
+        </form>
+        </div><!-- step 1 end -->
+        <br>
+        <br>
+
+        <!-- STEP 2 -->
+        <div id="step2" class="row">
+        <h5> STEP 2</h5>
+        <form>
+            <div class="row">
+                <div class="small-4 large-4 columns">
+                  <label>Input Label
+                    <input type="text" placeholder="large-4.columns" />
+                  </label>
+                </div>
+                <div class="large-4 columns">
+                  <label>Input Label
+                    <input type="text" placeholder="large-4.columns" />
+                  </label>
+                </div>
+                <div class="large-4 columns">
+                  <div class="row collapse">
+                    <label>Input Label</label>
+                    <div class="small-9 columns">
+                      <input type="text" placeholder="small-9.columns" />
+                    </div>
+                    <div class="small-3 columns">
+                      <span class="postfix">.com</span>
+                    </div>
+                  </div>
+            </div>
+            </div>
+              <div class="row">
+                <div class="large-12 columns">
+                  <label>Select Box
+                    <select>
+                      <option value="husker">Husker</option>
+                      <option value="starbuck">Starbuck</option>
+                      <option value="hotdog">Hot Dog</option>
+                      <option value="apollo">Apollo</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-6 columns">
+                  <label>Choose Your Favorite</label>
+                  <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+                  <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+                </div>
+                <div class="large-6 columns">
+                  <label>Check these out</label>
+                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                  <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-12 columns">
+                  <label>Textarea Label
+                    <textarea placeholder="small-12.columns"></textarea>
+                  </label>
+                </div>
+              </div>
+        </form>
+        </div> <!-- step 2 end -->
+
+    </div> <!-- forms end -->
 
 
 <!---------------------------------------------------------------------->
