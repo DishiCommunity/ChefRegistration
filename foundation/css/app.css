@@ -1,14 +1,34 @@
 .title {
     text-align: center;
 }
+hr {
+    color: #E87A4A;
+}
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-    form {
+    #inside-forms {
         width: 600px;
     }
 }
 
-form {
+#outside-forms {
+    width: 100%;
+    overflow: auto;
+}
 
+.clear {
+    clear: both;
+}
+
+h5 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #E87A4A;
+}
+
+
+.invite {
+    margin-left: 37px;
+    font-size: 1.1rem;
 }
