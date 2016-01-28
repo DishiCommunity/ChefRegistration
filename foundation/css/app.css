@@ -17,6 +17,10 @@ hr {
     overflow: auto;
 }
 
+#com {
+    height: 39px;
+    padding: 10px 0 0 3px;
+}
 .clear {
     clear: both;
 }
@@ -28,7 +32,8 @@ h5 {
 }
 
 
-.invite {
-    margin-left: 37px;
-    font-size: 1.1rem;
+.submit, .invite {
+    width: 80px;
+    margin-left: 45px;
+    font-size: 1.rem;
 }
