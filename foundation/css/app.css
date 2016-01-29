@@ -1,21 +1,23 @@
 .title {
     text-align: center;
 }
+
+.title h3 {
+    font-family: DaxRegular;
+    font-weight: bold;
+}
+
 hr {
     color: #E87A4A;
 }
 
-/* Medium and up */
-@media screen and (min-width: 40em) {
-    #inside-forms {
-        width: 600px;
-    }
-}
 
+/*
 #outside-forms {
     width: 100%;
     overflow: auto;
 }
+*/
 
 #com {
     height: 39px;
@@ -36,4 +38,28 @@ h5 {
     width: 80px;
     margin-left: 45px;
     font-size: 1.rem;
+}
+
+/*=========================================================================== */
+        /*---------- Media Queries -------------*/
+/*=========================================================================== */
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    #inside-forms {
+        width: 600px;
+    }
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    #inside-forms {
+        width: 90%
+    }
+
+    .submit, .invite {
+        width: 80px;
+        margin-left: 232px;
+        font-size: 1.rem;
+    }
 }
